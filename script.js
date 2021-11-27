@@ -32,7 +32,9 @@ if (choice === "February") {
 ) {
   days = 30;
 }
+
 createCalendar(days, choice);
+
 function createCalendar(days, choice) {
   list.innerHTML = "";
   h4.textContent = choice;
